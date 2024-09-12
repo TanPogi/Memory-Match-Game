@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Match Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Memory Match Game<br>CatSU Sepak Takraw Edition
+        
+        </h1>
+        <div id="status" class="hidden">Moves: 0 </div>
+        <div id="timer">60</div>
+    
+        <br>
+
+        <!-- User input to select grid size -->
+        <div class="grid-selection">
+            <label for="grid-size">Select Grid Size:</label>
+            <select id="grid-size">
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select>
+            <button id="start-button">Start Game</button>  
+            <button id="back-to-home" class="button">Back to Home</button>
+        </div>
+
+        <div id="memory-grid" class="grid"></div>
+        <button id="restart-button">Restart</button>
+        <footer>
+            Created by <span>Mark Jan Manlangit</span>
+        </footer>
+    </div>
+   
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
